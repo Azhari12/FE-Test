@@ -1,0 +1,42 @@
+[
+	{
+		"id": "LOC-001",
+		"nama_lokasi": "Lokasi A",
+		"gudang": "Gudang A",
+		"jenis": "Penyimpanan",
+		"volume": "100 PCS",
+		"deskripsi": "Area penyimpanan utama untuk barang olahraga."
+	},
+	{
+		"id": "LOC-002",
+		"nama_lokasi": "Lokasi B",
+		"gudang": "Gudang B",
+		"jenis": "Distribusi",
+		"volume": "150 PCS",
+		"deskripsi": "Tempat untuk pengemasan dan pengiriman barang."
+	},
+	{
+		"id": "LOC-003",
+		"nama_lokasi": "Lokasi C",
+		"gudang": "Gudang C",
+		"jenis": "Pendingin",
+		"volume": "80 PCS",
+		"deskripsi": "Gudang dengan kontrol suhu untuk barang sensitif."
+	},
+	{
+		"id": "LOC-004",
+		"nama_lokasi": "Lokasi D",
+		"gudang": "Gudang D",
+		"jenis": "Penyimpanan",
+		"volume": "120 PCS",
+		"deskripsi": "Area cadangan untuk penyimpanan barang tambahan."
+	},
+	{
+		"id": "LOC-005",
+		"nama_lokasi": "Lokasi E",
+		"gudang": "Gudang E",
+		"jenis": "Transit",
+		"volume": "200 PCS",
+		"deskripsi": "Lokasi transit barang sebelum distribusi ke toko."
+	}
+]

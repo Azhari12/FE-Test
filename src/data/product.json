@@ -1,0 +1,137 @@
+[
+	{
+		"kodeBarang": "GMI-555-BALL",
+		"namaBarang": "Bola Basket",
+		"merk": "Spalding",
+		"jenisBarang": "Olahraga",
+		"gudang": "Gudang A",
+		"totalStock": 100,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-123-RACQ",
+		"namaBarang": "Raket Badminton",
+		"merk": "Yonex",
+		"jenisBarang": "Olahraga",
+		"gudang": "Gudang B",
+		"totalStock": 50,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-678-TENN",
+		"namaBarang": "Bola Tenis",
+		"merk": "Wilson",
+		"jenisBarang": "Olahraga",
+		"gudang": "Gudang C",
+		"totalStock": 120,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-789-SHUT",
+		"namaBarang": "Shuttlecock",
+		"merk": "Li-Ning",
+		"jenisBarang": "Olahraga",
+		"gudang": "Gudang A",
+		"totalStock": 200,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-456-FOOT",
+		"namaBarang": "Bola Sepak",
+		"merk": "Adidas",
+		"jenisBarang": "Olahraga",
+		"gudang": "Gudang B",
+		"totalStock": 80,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-321-JERS",
+		"namaBarang": "Jersey Timnas",
+		"merk": "Nike",
+		"jenisBarang": "Pakaian",
+		"gudang": "Gudang C",
+		"totalStock": 70,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-654-GLOV",
+		"namaBarang": "Sarung Tangan",
+		"merk": "Puma",
+		"jenisBarang": "Pakaian",
+		"gudang": "Gudang A",
+		"totalStock": 30,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-789-SOCK",
+		"namaBarang": "Kaos Kaki",
+		"merk": "Reebok",
+		"jenisBarang": "Pakaian",
+		"gudang": "Gudang B",
+		"totalStock": 150,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-852-CAPA",
+		"namaBarang": "Topi Baseball",
+		"merk": "Under Armour",
+		"jenisBarang": "Aksesoris",
+		"gudang": "Gudang C",
+		"totalStock": 40,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-963-WATR",
+		"namaBarang": "Botol Minum",
+		"merk": "Hydro Flask",
+		"jenisBarang": "Aksesoris",
+		"gudang": "Gudang A",
+		"totalStock": 60,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-741-GOAL",
+		"namaBarang": "Jaring Gawang",
+		"merk": "Goalrilla",
+		"jenisBarang": "Olahraga",
+		"gudang": "Gudang B",
+		"totalStock": 15,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-852-NETB",
+		"namaBarang": "Net Badminton",
+		"merk": "Yonex",
+		"jenisBarang": "Olahraga",
+		"gudang": "Gudang C",
+		"totalStock": 25,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-951-TENN",
+		"namaBarang": "Net Tenis",
+		"merk": "Wilson",
+		"jenisBarang": "Olahraga",
+		"gudang": "Gudang A",
+		"totalStock": 10,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-123-HLM",
+		"namaBarang": "Helm Sepeda",
+		"merk": "Giro",
+		"jenisBarang": "Aksesoris",
+		"gudang": "Gudang B",
+		"totalStock": 45,
+		"location": []
+	},
+	{
+		"kodeBarang": "GMI-753-PUMP",
+		"namaBarang": "Pompa Bola",
+		"merk": "Nike",
+		"jenisBarang": "Aksesoris",
+		"gudang": "Gudang C",
+		"totalStock": 80,
+		"location": []
+	}
+]
