@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { ProductType } from "@/lib/types/product";
 import { cn } from "@/lib/utils";
-import { Checkbox, rem, ScrollArea, Table } from "@mantine/core";
+import { Checkbox, Pagination, rem, ScrollArea, Table } from "@mantine/core";
 import classes from "./TableSelection.module.css";
 
 const TableProducts = ({
@@ -52,28 +52,35 @@ const TableProducts = ({
 	});
 
 	return (
-		<ScrollArea>
-			<Table miw={800} verticalSpacing="sm">
-				<Table.Thead>
-					<Table.Tr>
-						<Table.Th style={{ width: rem(40) }}>
-							<Checkbox
-								onChange={toggleAll}
-								checked={selection.length === data.length}
-								indeterminate={selection.length > 0 && selection.length !== data.length}
-							/>
-						</Table.Th>
-						<Table.Th>Kode Barang</Table.Th>
-						<Table.Th>Nama Barang</Table.Th>
-						<Table.Th>Merk</Table.Th>
-						<Table.Th>Jenis Barang</Table.Th>
-						<Table.Th>Gudang</Table.Th>
-						<Table.Th>Total Stock (Pcs)</Table.Th>
-					</Table.Tr>
-				</Table.Thead>
-				<Table.Tbody>{rows}</Table.Tbody>
-			</Table>
-		</ScrollArea>
+		<>
+			<ScrollArea>
+				<Table miw={800} verticalSpacing="sm">
+					<Table.Thead>
+						<Table.Tr>
+							<Table.Th style={{ width: rem(40) }}>
+								<Checkbox
+									onChange={toggleAll}
+									checked={selection.length === data.length}
+									indeterminate={
+										selection.length > 0 && selection.length !== data.length
+									}
+								/>
+							</Table.Th>
+							<Table.Th>Kode Barang</Table.Th>
+							<Table.Th>Nama Barang</Table.Th>
+							<Table.Th>Merk</Table.Th>
+							<Table.Th>Jenis Barang</Table.Th>
+							<Table.Th>Gudang</Table.Th>
+							<Table.Th>Total Stock (Pcs)</Table.Th>
+						</Table.Tr>
+					</Table.Thead>
+					<Table.Tbody>{rows}</Table.Tbody>
+				</Table>
+			</ScrollArea>
+			<div className="flex justify-end">
+				<Pagination total={50} siblings={2} defaultValue={1} />
+			</div>
+		</>
 	);
 };
 

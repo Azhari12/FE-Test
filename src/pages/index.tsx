@@ -153,6 +153,7 @@ const MainPage = () => {
 				onClose={close}
 				title="Tambah Barang"
 				fullScreen
+				h={100}
 			>
 				<Divider my="xs" />
 				<TableProducts
