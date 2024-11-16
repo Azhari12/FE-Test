@@ -87,7 +87,7 @@ const TableGenerate = ({
 					}`}
 				>
 					<Table.Td></Table.Td>
-					<Table.Td colSpan={7}>
+					<Table.Td colSpan={7} className="!p-0">
 						{!item.location.length ? (
 							<div className="p-5 bg-[#fafafa]">
 								<p>Belum ada lokasi</p>
